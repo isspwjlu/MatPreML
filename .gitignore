@@ -1,0 +1,10 @@
+# oh-my-claudecode
+.omc/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
