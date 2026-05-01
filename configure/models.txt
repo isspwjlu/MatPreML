@@ -1,0 +1,19 @@
+
+模型名称：
+XGBoost                    极限梯度提升回归
+GradientBoosting       梯度提升
+BayesianRidge          贝叶斯岭回归
+BayesianBootstrap     贝叶斯自举
+SVR                          支持向量机
+RandomForest           随机森林
+Lasso                         Lasso回归
+DecisionTree             决策树
+NeuralNetwork           神经网络
+
+
+算法选择建议：
+线性关系：优先使用线性回归或岭回归
+特征选择：考虑Lasso回归或弹性网络
+非线性关系：尝试SVR、决策树或神经网络
+大数据集：随机森林和神经网络表现更佳
+需要可解释性：选择线性模型或决策树
